@@ -13,14 +13,14 @@
     <script src="https://kit.fontawesome.com/b1f327edcd.js" crossorigin="anonymous"></script>
     <title>San Patricio - servicio de desmalezado</title>
   </head>
-  <body>
-        <header>
+    <body>
+        
           <!--Navbar -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="imagenes/Logo.svg" alt="San Patricio" id="logo" >
-                      </a>
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     </button>
@@ -36,7 +36,7 @@
                             <a class="nav-link" href="#" id="contacto">Contacto</a>
                             </li>
                             <li class="nav-item">
-                             <a class="nav-link" href="#" ><i class="fab fa-instagram"></i></a>
+                            <a class="nav-link" href="#" ><i class="fab fa-instagram"></i></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#" ><i class="fab fa-facebook"></i></a>
@@ -46,34 +46,68 @@
                 </div>
             </nav>
 
-           
-        <!--Carrusel-->
-        <div id="boxCarousel">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" ></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" id="carousel">
-                        <img src="imagenes/Carousel.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption" id="boxTexto">
-                            
-                                
-                            <h3 id="titulo-carousel">Servicio de desmalezado</h3>
-                            <p>Contactenos vía whatsapp</p>
-                            <a href="https://api.whatsapp.com/send?phone=5491159255521&text=Hola!%20Deseo%20solicitar%20un%20presupuesto" target="_blank" id="linkwhatsapp"><img src="imagenes/Whatsapp_37229.ico" alt="" id="logowhatsapp"> +54 911 59255521</a>
-                                
-                                
-                            
+           <div class="page-content-wrapper">
+                <!--Carrusel-->
+                <div id="boxCarousel">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        
+                        <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" ></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" id="carousel">
+                                <img src="imagenes/Carousel.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption" id="boxTexto">
+                                    
+                                        
+                                    <h3 id="titulo-carousel">Servicio de desmalezado</h3>
+                                    <p>Contactenos vía whatsapp</p>
+                                    <a href="https://api.whatsapp.com/send?phone=5491159255521&text=Hola!%20Deseo%20solicitar%20un%20presupuesto" target="_blank" id="linkwhatsapp"><img src="imagenes/Whatsapp_37229.ico" alt="" id="logowhatsapp"> +54 911 59255521</a>
+                                        
+                                        
+                                    
+                                </div>
+                            </div>
                         </div>
-                  </div>
+                        
+                    </div>
                 </div>
                 
-            </div>
-        </div>
+                    <div class="container" id="seccionPrincipal">
+                        <div class="card mb-3" id="boxCard" >
+                            <div class="row g-0">
+                              <div class="col-md-6">
+                                <img src="imagenes/servicios.jpg" alt="" id="serviciosImagen">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="card-body">
+                                  <h3 class="card-title">Servicios</h3>
+                                  <p class="card-text">Realizamos corte de pasto a tractor, mantenimiento de parques, jardines y terrenos de grandes hectáreas. Nos encontramos ubicados en la zona de Escobar. Para mayor información no dude en contactarnos.</p>
+                                  <p class="card-text"><small class="text-muted"></small></p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="row" id="boxUbicacion">
+                            <div class="col-md-6">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52710.628420924106!2d-58.82784844723407!3d-34.33993316006458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bb61ad1ddf8915%3A0x70f239e49e8c37af!2sBel%C3%A9n%20de%20Escobar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1608709208439!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" id="mapa"></iframe>
+                            </div>
+                            <div class="col-md-6"></div>
+                        </div>
+                        
+                    </div>
+
+                
+                
+                    
+                
+           </div>
+                
+                
         
-      
-    
+            
+        
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
