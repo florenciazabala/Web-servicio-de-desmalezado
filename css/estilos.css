@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Questrial&family=Raleway:ital,wght@0,200;0,300;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+:root{
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --light: #ffffff;
+    --dark: #01080f;
+    --font-family-sans-serif: 'Raleway', sans-serif;
+    --font-family-monospace: 'Raleway', sans-serif;
+
+}
+
+#logo{
+    width: 60%;
+}
+.navbar{
+    background-color: var(--white) !important;
+}
+.navbar-nav{
+    
+    
+}
+.nav-item{
+    color: black !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 500 !important;
+    padding: 15px;
+}
+#contacto{
+    border: 2px solid var(--success);
+    border-radius: 30px;
+}
+#contacto:hover{
+    background-color:  var(--success);
+    color: white;
+}
+
+#boxCarousel{
+    height: 700px;
+}
+#boxTexto{
+    width: 70%;
+    justify-content: start;
+ 
+}
+#texto-carousel{
+    font-size: 30px;
+    color: w;
+}
+#titulo-carousel{
+    font-family: 'Questrial', sans-serif;
+    font-size: 70px !important;
+    color:white;
+}
+
+#logowhatsapp{
+    width: 7%;
+}
+#linkwhatsapp{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+
+.carousel, .carousel-inner > .item > img {
+    height: 600px;
+  }
