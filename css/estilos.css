@@ -135,6 +135,9 @@ ul{
 
 
 @media screen and (max-width: 800px) {
+    #logo{
+        width: 40%;
+    }
     #seccionPrincipal{
         margin-top: -470px;
     }
@@ -156,10 +159,10 @@ ul{
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         
-        order: 1;
+        order: 1 !important;
     }
     #mapa{
-        order: -2;
+        order: 2 !important;
     }
 
 }
