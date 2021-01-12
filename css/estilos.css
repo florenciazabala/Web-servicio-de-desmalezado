@@ -95,12 +95,33 @@
 }
 #boxUbicacion{
     margin-top: 60px;
+    height: 30rem;
 }
+
 
 #mapa{
     width: 100%;
-    height: 500px;
+   height: 100%;
 }
+
+#boxcobertura{
+    height: 100%;
+}
+ul{
+    list-style-image: url("../imagenes/check2.svg");
+    margin-top: 30px;
+    color: #1B5A3C;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#linkwhatsappinfo{
+    padding: 30px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #1B5A3C;
+    font-weight: bold;
+}
+
 
 #footer{
     height: 150px;
