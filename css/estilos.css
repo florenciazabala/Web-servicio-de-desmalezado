@@ -105,8 +105,12 @@
 }
 
 #boxcobertura{
+    background-color: #D1E7DD;
+    border-radius: 5px;
+    padding: 20px;
     height: 100%;
     z-index: -1;
+    color: #1B5A3C;
 }
 ul{
     list-style-image: url("../imagenes/check2.svg");
@@ -133,21 +137,32 @@ ul{
     margin-top: 30px;
 }
 
-
-@media screen and (max-width: 800px) {
-    #logo{
-        width: 40%;
-    }
+@media screen and (max-width: 1160px) {
     #seccionPrincipal{
-        margin-top: -470px;
+        margin-top: -9.5rem;
     }
-    #boxCard{
-       
+    #boxUbicacion{
+       margin-top: 0px;
     }
     #titulo-carousel{
-        
-        font-size: 1.3rem !important;
-        
+        font-size: 3rem !important;
+    }
+    #contactoCarousel{
+        font-size: 1.5rem !important;
+    }
+    #texto-carousel{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 800px) {
+    #seccionPrincipal{
+        margin-top: -250px;
+    }
+    #boxUbicacion{
+       margin-top: 0px;
+    }
+    #titulo-carousel{
+        font-size: 1.5rem !important;
     }
     #contactoCarousel{
         font-size: 0.7rem !important;
@@ -155,17 +170,67 @@ ul{
     #texto-carousel{
         font-size: 0.5rem;
     }
+}
+@media screen and (max-device-width : 540px) {
+    #logo{
+        width: 40%;
+    }
+    #seccionPrincipal{
+        margin-top: -400px;
+    }
+    #carouselExampleCaptions{
+        align-content: end !important;
+    }
+    #boxTexto.carousel-caption{
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    #titulo-carousel{
+        font-size: 1.2rem !important;
+    }
+    #contactoCarousel{
+        font-size: 0.7rem !important;
+    }
+    #texto-carousel{
+        font-size: 0.5rem;
+    }
+    #boxUbicacion{
+        margin-top: -55px;
+        height: 40rem;
+    }
     #boxcobertura{
         margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
         
         order: 1 !important;
+    }
+    #linkwhatsappinfo{
+        font-size: 1rem;
     }
     #mapa{
         order: 2 !important;
     }
+    #navbarNav{
+        
+        display: inline;
+    }
+    button.navbar-toggler{
+        padding: 0px !important;
+    }
+    a.navbar-brand{
+        margin: 0px !important;
+        padding: 0px !important;
+        width: 200px !important;
+    }
 
 }
 @media screen and (max-device-width : 480px) {
-  
+    #seccionPrincipal{
+        margin-top: -30.5rem;
+    }
+}
+@media screen and (max-device-width : 320px) {
+    #seccionPrincipal{
+        margin-top: -33rem;
+    }
 }
